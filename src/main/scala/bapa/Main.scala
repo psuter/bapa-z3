@@ -13,6 +13,10 @@ object Main {
     val ctx  = new Z3Context()
     val bapa = new BAPATheory(ctx)
 
+    // All standard Z3 constructs are invoked through the Z3Context instance
+    // (see ScalaZ3 documentation). BAPA specific constructs must be invoked
+    // through the theory plugin instance (see "Theory constructs" section
+    // in BAPATheory.scala.
     val a = ctx.mkFreshConst("A", bapa.mkSetSort)
     val b = ctx.mkFreshConst("B", bapa.mkSetSort)
   
