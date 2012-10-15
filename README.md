@@ -9,8 +9,7 @@ with its own license.
 
 The underlying algorithm of the BAPA theory plugin is described in:
 
-    Philippe Suter, Robin Steiger, and Viktor Kuncak. Sets with Cardinality
-    Constraints in Satisfiability Modulo Theories. VMCAI 2011, pp. 403-418.
+    * Philippe Suter, Robin Steiger, and Viktor Kuncak. _Sets with Cardinality Constraints in Satisfiability Modulo Theories_. VMCAI 2011, pp. 403-418.
 
 The paper is available from
 [Springer](http://dx.doi.org/10.1007/978-3-642-18275-4_28) or from the first
